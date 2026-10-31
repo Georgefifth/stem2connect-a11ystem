@@ -1,0 +1,224 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "partial": 0,
+    "failed": 0,
+    "passRate": 100
+  },
+  "results": [
+    {
+      "id": "BENCH-01",
+      "title": "IEEE Inverting Operational Amplifier",
+      "category": "Basic",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_amplifier",
+      "sourceType": "Standard Academic Schematics",
+      "verdict": "PASS",
+      "elapsedMs": 3.6,
+      "nodeCount": 7,
+      "notes": [
+        "Exact node extraction: 7 nodes parsed.",
+        "Execution time: 3.6ms"
+      ]
+    },
+    {
+      "id": "BENCH-02",
+      "title": "Damped Harmonic Oscillator Dynamic Curve",
+      "category": "Basic",
+      "sourceUrl": "https://mathworld.wolfram.com/DampedSimpleHarmonicMotion.html",
+      "sourceType": "Analytical Calculus Ground Truth",
+      "verdict": "PASS",
+      "elapsedMs": 0.7,
+      "nodeCount": 6,
+      "notes": [
+        "Exact node extraction: 6 nodes parsed.",
+        "Topological direction check: Node \"zero1\" right -> got \"zero2\", expected \"trough1\"",
+        "Topological direction check: Node \"asymptote\" left -> got \"zero2\", expected \"peak1\"",
+        "Execution time: 0.6ms"
+      ]
+    },
+    {
+      "id": "BENCH-03",
+      "title": "Balanced Binary Search Tree (AVL)",
+      "category": "Basic",
+      "sourceUrl": "https://algs4.cs.princeton.edu/33balanced/",
+      "sourceType": "Princeton Algorithms Standard Benchmark",
+      "verdict": "PASS",
+      "elapsedMs": 0.4,
+      "nodeCount": 7,
+      "notes": [
+        "Exact node extraction: 7 nodes parsed.",
+        "Execution time: 0.4ms"
+      ]
+    },
+    {
+      "id": "BENCH-04",
+      "title": "Texas Instruments NE555 Precision Timer IC Pinout",
+      "category": "Intermediate",
+      "sourceUrl": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+      "sourceType": "Manufacturer Official Datasheet (Texas Instruments)",
+      "verdict": "PASS",
+      "elapsedMs": 0.6,
+      "nodeCount": 8,
+      "notes": [
+        "Exact node extraction: 8 nodes parsed.",
+        "Execution time: 0.5ms"
+      ]
+    },
+    {
+      "id": "BENCH-05",
+      "title": "W3C SVG 1.1 Technical Recommendation Schematic",
+      "category": "Intermediate",
+      "sourceUrl": "https://www.w3.org/TR/SVG11/",
+      "sourceType": "W3C Official Recommendation Sample",
+      "verdict": "PASS",
+      "elapsedMs": 0.3,
+      "nodeCount": 5,
+      "notes": [
+        "Exact node extraction: 5 nodes parsed.",
+        "Execution time: 0.3ms"
+      ]
+    },
+    {
+      "id": "BENCH-06",
+      "title": "Krebs Citric Acid Metabolic Loop (BioRender/Wiki)",
+      "category": "Intermediate",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citric_acid_cycle_with_aconitate_2.svg",
+      "sourceType": "Wikimedia Commons Scientific Illustration",
+      "verdict": "PASS",
+      "elapsedMs": 0.3,
+      "nodeCount": 8,
+      "notes": [
+        "Exact node extraction: 8 nodes parsed.",
+        "Execution time: 0.3ms"
+      ]
+    },
+    {
+      "id": "BENCH-07",
+      "title": "Acetylsalicylic Acid (Aspirin C9H8O4) Molecular Graph",
+      "category": "Intermediate",
+      "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/Aspirin",
+      "sourceType": "NIH PubChem Chemical Structure Database",
+      "verdict": "PASS",
+      "elapsedMs": 0.3,
+      "nodeCount": 8,
+      "notes": [
+        "Exact node extraction: 8 nodes parsed.",
+        "Execution time: 0.3ms"
+      ]
+    },
+    {
+      "id": "BENCH-08",
+      "title": "4-Bit Arithmetic Logic Unit (ALU) Bus Schematic",
+      "category": "Advanced",
+      "sourceUrl": "https://www.geeksforgeeks.org/arithmetic-logic-unit-alu/",
+      "sourceType": "Computer Architecture Benchmark",
+      "verdict": "PASS",
+      "elapsedMs": 2.3,
+      "nodeCount": 15,
+      "notes": [
+        "Exact node extraction: 15 nodes parsed.",
+        "Topological direction check: Node \"alu-core0\" right -> got \"undefined\", expected \"out-s0\"",
+        "Topological direction check: Node \"flag-zero\" down -> got \"bus-a0\", expected \"flag-carry\"",
+        "Topological direction check: Node \"flag-zero\" left -> got \"undefined\", expected \"out-s1\"",
+        "Execution time: 2.3ms"
+      ]
+    },
+    {
+      "id": "BENCH-09",
+      "title": "Mealy/Moore Finite State Machine (FSM) Diagram",
+      "category": "Advanced",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Finite-state_machine",
+      "sourceType": "Discrete Mathematics Automata Theory Ground Truth",
+      "verdict": "PASS",
+      "elapsedMs": 0.3,
+      "nodeCount": 5,
+      "notes": [
+        "Exact node extraction: 5 nodes parsed.",
+        "Topological direction check: Node \"s-idle\" right -> got \"s-alarm\", expected \"s-arm\"",
+        "Topological direction check: Node \"s-alarm\" left -> got \"s-idle\", expected \"s-active\"",
+        "Execution time: 0.3ms"
+      ]
+    },
+    {
+      "id": "BENCH-10",
+      "title": "ECE Frequency Response Bode Magnitude Curve",
+      "category": "Advanced",
+      "sourceUrl": "https://lpsa.swarthmore.edu/Bode/BodeWhat.html",
+      "sourceType": "Control Systems Engineering Reference (Swarthmore)",
+      "verdict": "PASS",
+      "elapsedMs": 0.2,
+      "nodeCount": 4,
+      "notes": [
+        "Exact node extraction: 4 nodes parsed.",
+        "Execution time: 0.2ms"
+      ]
+    },
+    {
+      "id": "BENCH-11",
+      "title": "Malformed Broken XML Syntax (Unclosed Tag)",
+      "category": "Adversarial",
+      "sourceUrl": "Synthetic Adversarial Robustness Check",
+      "sourceType": "Fuzzing & Error Recovery",
+      "verdict": "PASS",
+      "elapsedMs": 1.3,
+      "nodeCount": 0,
+      "notes": [
+        "Correctly intercepted malformed XML: \"SVG Parse Error: This page contains the following errors:error on line 1 at column 66: error parsing attribute name\nBelow is a rendering of the page up to the first error.\""
+      ]
+    },
+    {
+      "id": "BENCH-12",
+      "title": "Empty SVG Container with Zero Graphic Elements",
+      "category": "Edge",
+      "sourceUrl": "Edge Case Testing",
+      "sourceType": "Boundary Edge Case",
+      "verdict": "PASS",
+      "elapsedMs": 0.1,
+      "nodeCount": 3,
+      "notes": [
+        "Execution time: 0.1ms"
+      ]
+    },
+    {
+      "id": "BENCH-13",
+      "title": "Extreme Out-Of-Bounds Astronomical Coordinates",
+      "category": "Edge",
+      "sourceUrl": "Coordinate Clamping Robustness Check",
+      "sourceType": "Boundary Edge Case",
+      "verdict": "PASS",
+      "elapsedMs": 0.1,
+      "nodeCount": 3,
+      "notes": [
+        "Execution time: 0.1ms"
+      ]
+    },
+    {
+      "id": "BENCH-14",
+      "title": "Collinear Overlapping Identical Coordinates",
+      "category": "Adversarial",
+      "sourceUrl": "Division-By-Zero & Distance Singularity Check",
+      "sourceType": "Topology Stress Case",
+      "verdict": "PASS",
+      "elapsedMs": 0.1,
+      "nodeCount": 3,
+      "notes": [
+        "Execution time: 0.1ms"
+      ]
+    },
+    {
+      "id": "BENCH-15",
+      "title": "Deeply Nested Multi-Group Hierarchical SVG",
+      "category": "Advanced",
+      "sourceUrl": "Inkscape / Illustrator Export Simulation",
+      "sourceType": "Real Graphic Design Software Output",
+      "verdict": "PASS",
+      "elapsedMs": 0.3,
+      "nodeCount": 2,
+      "notes": [
+        "Exact node extraction: 2 nodes parsed.",
+        "Execution time: 0.3ms"
+      ]
+    }
+  ]
+}

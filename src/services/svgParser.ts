@@ -32,8 +32,11 @@ export function parseSvgToDiagram(svgString: string, title: string = 'Custom Imp
   const nodes: DiagramNode[] = [];
   const edges: DiagramEdge[] = [];
 
-  // Extract circles, rects, paths with IDs or titles
-  const elements = svgEl.querySelectorAll('circle, rect, path, g[id], text');
+  // Extract graphical leaf shapes first (avoid treating container <g> as duplicate nodes)
+  let elements = Array.from(svgEl.querySelectorAll('circle, rect, path[id], path[data-label], text'));
+  if (elements.length === 0) {
+    elements = Array.from(svgEl.querySelectorAll('circle, rect, path, g[id], text'));
+  }
   let elementIndex = 1;
 
   elements.forEach((el) => {
@@ -47,6 +50,10 @@ export function parseSvgToDiagram(svgString: string, title: string = 'Custom Imp
       (tagName === 'text' ? el.textContent?.trim() : `${tagName.toUpperCase()} ${elementIndex}`);
 
     if (!label || label.length < 2) return;
+
+    // Detect parent group for subsystem classification
+    const parentGroup = el.closest('g[id]');
+    const subsystem = parentGroup ? parentGroup.getAttribute('id') || undefined : undefined;
 
     let x = 50;
     let y = 50;
@@ -94,13 +101,14 @@ export function parseSvgToDiagram(svgString: string, title: string = 'Custom Imp
       x: Math.round(x * 10) / 10,
       y: Math.round(y * 10) / 10,
       description: `Diagram element: ${label}. Extracted from SVG.`,
+      subsystem,
       zoomLevel: 2,
       neighbors: {},
     });
   });
 
-  // If too few nodes extracted, create at least 3 fallback semantic nodes
-  if (nodes.length < 3) {
+  // If no nodes extracted at all (e.g. empty SVG container), provide accessible template nodes
+  if (nodes.length === 0) {
     nodes.push(
       {
         id: 'node-start',
