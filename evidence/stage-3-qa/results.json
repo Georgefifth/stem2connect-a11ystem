@@ -1,0 +1,234 @@
+{
+  "base": "https://stem2connect-ai-hackathon.vercel.app",
+  "browser": "chromium",
+  "headed": false,
+  "startedAt": "2026-10-31T07:40:37.937Z",
+  "finishedAt": "2026-10-31T07:41:02.017Z",
+  "summary": {
+    "total": 16,
+    "pass": 16,
+    "fail": 0
+  },
+  "results": [
+    {
+      "viewport": "desktop",
+      "id": "landing-smoke",
+      "title": "Landing page renders with tactical grid and initial focal node",
+      "status": "pass",
+      "ms": 1809,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/landing-smoke-landing-initial-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "directional-arrow-nav",
+      "title": "Navigate 2D topological graph using arrow keys and verify telemetry",
+      "status": "pass",
+      "ms": 1700,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/directional-arrow-nav-nav-step-1-rin-desktop.png",
+        "evidence/stage-3-qa/screens/directional-arrow-nav-nav-step-2-summing-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "audio-sweep-execution",
+      "title": "Trigger continuous left-to-right audio scan sweep",
+      "status": "pass",
+      "ms": 1768,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/audio-sweep-execution-audio-sweep-active-desktop.png",
+        "evidence/stage-3-qa/screens/audio-sweep-execution-audio-sweep-stopped-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "diagram-switching",
+      "title": "Switch between multi-disciplinary STEM diagrams",
+      "status": "pass",
+      "ms": 1549,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/diagram-switching-diagram-calculus-desktop.png",
+        "evidence/stage-3-qa/screens/diagram-switching-diagram-bst-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "semantic-zoom-levels",
+      "title": "Switch semantic zoom levels (Macro, Modules, Details)",
+      "status": "pass",
+      "ms": 1519,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/semantic-zoom-levels-zoom-level-1-desktop.png",
+        "evidence/stage-3-qa/screens/semantic-zoom-levels-zoom-level-2-desktop.png",
+        "evidence/stage-3-qa/screens/semantic-zoom-levels-zoom-level-3-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "svg-import-flow",
+      "title": "Import custom SVG markup and synthesize accessible topological graph",
+      "status": "pass",
+      "ms": 1521,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/svg-import-flow-import-synthesized-success-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "keyboard-guide-modal",
+      "title": "Open and interact with Keyboard & Spatial Audio guide",
+      "status": "pass",
+      "ms": 1755,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/keyboard-guide-modal-guide-modal-open-desktop.png",
+        "evidence/stage-3-qa/screens/keyboard-guide-modal-guide-modal-closed-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "directional-boundary-bounce",
+      "title": "Graceful boundary bounce when navigating into dead-end",
+      "status": "pass",
+      "ms": 908,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/directional-boundary-bounce-boundary-bounce-handled-desktop.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "landing-smoke",
+      "title": "Landing page renders with tactical grid and initial focal node",
+      "status": "pass",
+      "ms": 785,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/landing-smoke-landing-initial-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "directional-arrow-nav",
+      "title": "Navigate 2D topological graph using arrow keys and verify telemetry",
+      "status": "pass",
+      "ms": 1485,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/directional-arrow-nav-nav-step-1-rin-mobile.png",
+        "evidence/stage-3-qa/screens/directional-arrow-nav-nav-step-2-summing-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "audio-sweep-execution",
+      "title": "Trigger continuous left-to-right audio scan sweep",
+      "status": "pass",
+      "ms": 1605,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/audio-sweep-execution-audio-sweep-active-mobile.png",
+        "evidence/stage-3-qa/screens/audio-sweep-execution-audio-sweep-stopped-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "diagram-switching",
+      "title": "Switch between multi-disciplinary STEM diagrams",
+      "status": "pass",
+      "ms": 1637,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/diagram-switching-diagram-calculus-mobile.png",
+        "evidence/stage-3-qa/screens/diagram-switching-diagram-bst-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "semantic-zoom-levels",
+      "title": "Switch semantic zoom levels (Macro, Modules, Details)",
+      "status": "pass",
+      "ms": 1663,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/semantic-zoom-levels-zoom-level-1-mobile.png",
+        "evidence/stage-3-qa/screens/semantic-zoom-levels-zoom-level-2-mobile.png",
+        "evidence/stage-3-qa/screens/semantic-zoom-levels-zoom-level-3-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "svg-import-flow",
+      "title": "Import custom SVG markup and synthesize accessible topological graph",
+      "status": "pass",
+      "ms": 1532,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/svg-import-flow-import-synthesized-success-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "keyboard-guide-modal",
+      "title": "Open and interact with Keyboard & Spatial Audio guide",
+      "status": "pass",
+      "ms": 1667,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/keyboard-guide-modal-guide-modal-open-mobile.png",
+        "evidence/stage-3-qa/screens/keyboard-guide-modal-guide-modal-closed-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "directional-boundary-bounce",
+      "title": "Graceful boundary bounce when navigating into dead-end",
+      "status": "pass",
+      "ms": 950,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/directional-boundary-bounce-boundary-bounce-handled-mobile.png"
+      ]
+    }
+  ]
+}

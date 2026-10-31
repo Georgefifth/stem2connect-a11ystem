@@ -78,6 +78,18 @@ export const App: React.FC = () => {
     [currentDiagram, selectNode]
   );
 
+  const handleChangeZoom = useCallback((lvl: 1 | 2 | 3) => {
+    setZoomLevel(lvl);
+    const msg =
+      lvl === 1
+        ? 'Zoom: Macro Blueprint'
+        : lvl === 2
+        ? 'Zoom: Subsystem Modules'
+        : 'Zoom: Full Details';
+    speechEngine.speak(msg);
+    setStatusMessage(msg);
+  }, []);
+
   // Play audio sweep
   const handleStartSweep = useCallback(() => {
     audioEngine.init();
@@ -259,7 +271,7 @@ export const App: React.FC = () => {
           onStartSweep={handleStartSweep}
           onStopSweep={handleStopSweep}
           zoomLevel={zoomLevel}
-          onChangeZoom={(lvl) => setZoomLevel(lvl)}
+          onChangeZoom={handleChangeZoom}
           onResetFocus={() => {
             const root = currentDiagram.nodes.find((n) => n.id === currentDiagram.rootNodeId) || currentDiagram.nodes[0];
             selectNode(root, true);
