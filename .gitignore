@@ -6,5 +6,9 @@ dist-ssr
 .env.*
 .DS_Store
 *.log
+*.work
+evidence/stage-4-demo/raw/
+evidence/stage-4-demo/demo.work/
+
 .vercel
 .env*

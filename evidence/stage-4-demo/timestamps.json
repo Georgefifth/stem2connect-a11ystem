@@ -1,0 +1,130 @@
+[
+  {
+    "idx": 0,
+    "name": "title",
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/scene-00.webm",
+    "wallMs": 9288,
+    "focus": []
+  },
+  {
+    "idx": 1,
+    "name": "problem",
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/scene-01.webm",
+    "wallMs": 10106,
+    "focus": []
+  },
+  {
+    "idx": 2,
+    "name": "how-it-works",
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/scene-02.webm",
+    "wallMs": 11248,
+    "focus": []
+  },
+  {
+    "idx": 3,
+    "name": "live-circuit-navigation",
+    "session": "app",
+    "focus": [
+      {
+        "t": 1.88,
+        "x": 340,
+        "y": 34
+      },
+      {
+        "t": 3.31,
+        "x": 1461,
+        "y": 685
+      },
+      {
+        "t": 5.19,
+        "x": 1461,
+        "y": 682
+      },
+      {
+        "t": 7.09,
+        "x": 1379,
+        "y": 630
+      }
+    ],
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      0,
+      9.46
+    ]
+  },
+  {
+    "idx": 4,
+    "name": "live-audio-sweep",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.42,
+        "x": 464,
+        "y": 125
+      }
+    ],
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      9.46,
+      14.03
+    ]
+  },
+  {
+    "idx": 5,
+    "name": "live-multi-discipline",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.41,
+        "x": 991,
+        "y": 34
+      }
+    ],
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      14.03,
+      20.08
+    ]
+  },
+  {
+    "idx": 6,
+    "name": "live-svg-ingestion",
+    "session": "app",
+    "focus": [
+      {
+        "t": 0.41,
+        "x": 1186,
+        "y": 34
+      },
+      {
+        "t": 1.45,
+        "x": 1165,
+        "y": 470
+      },
+      {
+        "t": 2.9,
+        "x": 1108,
+        "y": 753
+      }
+    ],
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/session-app.webm",
+    "range": [
+      20.08,
+      26.44
+    ]
+  },
+  {
+    "idx": 7,
+    "name": "real-world-validation",
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/scene-07.webm",
+    "wallMs": 11188,
+    "focus": []
+  },
+  {
+    "idx": 8,
+    "name": "closing-cta",
+    "file": "/home/yap/Hack/stem2connect-ai-hackathon/evidence/stage-4-demo/raw/scene-08.webm",
+    "wallMs": 11700,
+    "focus": []
+  }
+]
